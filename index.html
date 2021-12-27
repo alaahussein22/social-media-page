@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"/>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  
+<!-- start navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-12 col-md-9">
+
+          
+      <button type="button" class="btn  position-relative">
+        <i class="fas fa-home icon" ></i><a style="font-size: 20px;color: white;">Logo</a>
+      </button>
+      
+        
+          <button type="button" class="btn  position-relative">
+            <i class="fas fa-globe-asia icon"></i>
+          </button>
+
+          <button type="button" class="btn  position-relative">
+            <i class="fas fa-user-plus icon"></i>
+          </button>
+
+          <button type="button" class="btn  position-relative">
+            <i class="fas fa-envelope icon"></i>
+          </button>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                
+                <button type="button" class="btn  position-relative">
+                  <i class="far fa-bell icon"></i>
+                  <span class="position-absolute top-0 start-60 translate-middle badge rounded-pill bg-success">
+                   3
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </button>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">One New Friend Request</a></li>
+              <li><a class="dropdown-item" href="#">One New Friend Request</a></li>
+              <li><a class="dropdown-item" href="#">One New Friend Request</a></li>
+            </ul>
+          </li>
+        </ul>
+
+
+        <form class="d-flex">
+         <!-- <img src="../img/wg.jpg" style="border-radius: 50%; width: 50px;height: 50px;">
+         -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+ Log in
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="staticBackdropLabel">Name</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label>Name</label><br>
+        <input id="input" name="user-name" type="text" style="width: 100%; padding: 5px;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" id="val" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        </form>
+
+      </div>
+    </div>
+  </nav>
+<!-- end navbar -->
+
+<!-- start body -->
+
+<section class="main">
+
+
+<!-- >///////////////////////////////////////////////// -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+          <div class="left col-12 col-md-3">
+
+            <div class="card col-12" style="padding: 15px;">
+                <div class="top" style="text-align: center;">
+                <h2>My Profile</h2>
+                <img class="col-6 col-md-6" src="./img/wg.jpg" class="card-img-top" alt="..."  style="border-radius: 50%;">
+              </div>
+            <hr style="background-color: #b2b3b4;">
+                <div class="card-body col-12" style="padding: 3px;">
+                  <p class="card-text"><i class="fas fa-pen" style="margin: 0 10px 0 0;"></i>Designer, UI</p>
+                  <p class="card-text"><i class="fas fa-home " style="margin: 0 10px 0 0;" ></i>London, UK</p>
+                  <p class="card-text"><i class="fas fa-birthday-cake" style="margin: 0 10px 0 0;"></i>Septemper 1, 1998</p>
+                </div>
+            </div>
+
+            <!-- /////////// -->
+        
+          <div class="one cl-12 bg-info" style="margin-top: 20px;color: white;border-radius: 2px;" >
+            <p class="p-1"><i class="fas fa-circle-notch" style="margin: 0 15px 0 ;"></i>My Groups</p>
+            <p class="p-1"><i class="far fa-calendar-alt" style="margin: 0 15px 0 ;"></i>My Events</p>
+            <p class="p-1"><i class="fas fa-images" style="margin: 0 15px  0;"></i>My Photos</p>
+          </div>
+            <!-- ////////////// -->
+
+          <div class="two col-12" style="margin-top: 20px;background-color: #fff !important;padding: 2px">
+            <p style="margin: 0 15px 0">Interests</p>
+            <div style="margin: 0 15px 0" >
+                        <button type="button" class="btn btn-primary p-1 m-1">First</button>
+                        <button type="button" class="btn btn-primary p-1 m-1">Second</button>
+                        <button type="button" class="btn btn-primary p-1  m-1">Third</button>
+                        <button type="button" class="btn btn-primary p-1  m-1">Fourth</button>
+                        <button type="button" class="btn btn-primary p-1  m-1">Fifth</button>
+                        <button type="button" class="btn btn-primary p-1  m-1">Sixth</button>
+                        <button type="button" class="btn btn-primary p-1  m-1">Fourth</button>
+                        <button type="button" class="btn btn-primary p-1  m-1">Fifth</button>
+                        <button type="button" class="btn btn-primary p-1  m-1">Sixth</button>
+                    </div>
+  </div>
+      <!-- //////////////////////// -->
+       
+      <div class="three col-12 bg-info" style="margin-top: 20px;border-radius: 2px;padding: 4px;">
+          <p style="margin: 0 15px 0 ;">Hey!</p>
+          <p style="margin: 0 15px 0 ;">people are looking for your profile. Fint out who</p>
+      </div>
+        </div>
+        
+        <!-- ////////////////////////////////////////////////// -->
+
+        <div class="col-12 col-md-7">
+          <div class="form"> 
+            <label for="inputPassword5" class="form-label" >Social Media template by w3.css</label>
+            <input type="password" placeholder="Status: Feeling Blue" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+
+            <div id="passwordHelpBlock" class="form-text">
+              <button class="col-12 col-md-2"><i class="fas fa-pen" style="margin: 0 10px 0 0 ;"></i>Post</button>
+            </div>
+        </div> 
+
+<!-- ///////////////// -->
+     
+      <section class="post1">
+          <div class="first row">
+              
+            <img class="col-6 col-md-2" src="./img/wg.jpg" style="border-radius: 50%;">
+            <h3 class="col-12 col-md-6" >Alaa Hussein</h3>
+        </div>
+     <hr>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reiciendis ut delectus libero deleniti architecto soluta maiores, 
+              facilis, reprehenderit pariatur sint eum. Veniam exercitationem quia dolores 
+              dolorem nam illo, aliquid iure.</p>
+
+       <div class="photo row">     
+         <img class="col-12 col-md-6" src="./img/wp.jpg">
+         <img class="col-12 col-md-6" src="./img//mg.jpg">     
+        </div>
+<div class="row">
+        <button class="col-12 col-md-2 m-2" ><i style="margin: 0 10px 0 0 ;" class="fas fa-thumbs-up"></i>Like</button>
+        <button class="col-12 col-md-3 m-2"><i style="margin: 0 10px 0 0 ;" class="fas fa-comments"></i>Comment</button>
+    </div>
+      </section>
+
+<!-- ////////////////////////////////// -->
+
+<section class="post1">
+    <div class="first row">
+      <img class="col-6 col-md-2" src="./img/wg.jpg"  style="border-radius: 50%;">
+      <h3 class="col-md-6">Alaa Hussein</h3>
+  </div>
+<hr>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Reiciendis ut delectus libero deleniti architecto soluta maiores, 
+        facilis, reprehenderit pariatur sint eum. Veniam exercitationem quia dolores 
+        dolorem nam illo, aliquid iure.</p>
+<div class="row">
+  <button class="col-12 col-md-2 m-2" ><i style="margin: 0 10px 0 0 ;" class="fas fa-thumbs-up"></i>Like</button>
+  <button class="col-12 col-md-3 m-2"><i style="margin: 0 10px 0 0 ;" class="fas fa-comments"></i>Comment</button>
+</div>
+</section>
+
+
+
+<!-- /////////////////////// -->
+
+<section class="post1">
+    <div class="first row">
+      <img class="col-6 col-md-2" src="./img/wg.jpg"  style="border-radius: 50%;">
+      <h3 class="col-md-6">Alaa Hussein</h3>
+  </div>
+<hr>
+   <p>Have ypu seen this?</p>
+
+ <div class="photo2" >     
+   <img class="col-12" src="./img/wg.jpg" height="auto">
+     
+  </div>  
+  <div class="row">
+  <button class="col-12 col-md-2 m-2" ><i style="margin: 0 10px 0 0 ;" class="fas fa-thumbs-up"></i>Like</button>
+  <button class="col-12 col-md-3 m-2"><i style="margin: 0 10px 0 0 ;" class="fas fa-comments"></i>Comment</button>
+</div>
+</section>
+
+</div>
+
+<!-- ///////////////////////////////////////// -->
+
+   <div class="col-12 col-md-2">
+    <div class="card" style="text-align: center;">
+        <p style="margin: 5px;">Upcoming Events:</p>
+        <img class="col-12" src="./img/wg.jpg"  class="card-img-top">
+        <div class="card-body">
+         <h4 style="margin: 0 0 3px;">Holiday</h4>
+         <p>Friday 15:00</p>
+          <button class="p-1 col-12" style=" border: 2px solid #dfe5e8 !important;background-color: #dfe5e8 !important;">Info</button>
+        </div>
+      </div>
+    
+
+<!-- /////////////// -->
+
+<div class="card2" style="text-align: center;margin-top: 20px;background-color: #fff;border-radius: 3px;">
+    <p style="margin: 5px;">Friend Request</p>
+    <img class="col-12 col-md-6" src="./img/wg.jpg"  class="card-img-top" >
+    <p  style="margin: 5px;">Alaa Hussein</p>
+    
+    <div class="card-body" >
+    
+        <button class="col-12 col-md-5 btn btn-success" type="button" ><i class="fas fa-check"></i></button>
+        <button  class="col-12 col-md-5 btn btn-danger" type="button"><i class="fas fa-times"></i></button>
+   
+      <!-- <button class="p-1" style="width: 100%; border: 2px solid #dfe5e8 !important;background-color: #dfe5e8 !important;">Info</button> -->
+    </div>
+  </div>
+
+  <!--//////////////////////  -->
+
+  <div style="background-color: #fff;padding: 35px;margin-top: 20px;font-size: 25px;text-align: center;border-radius: 3px;">ADS</div>
+
+  <div  style="background-color: #fff;padding: 35px;font-size: 25px;margin-top: 20px;text-align: center;border-radius: 3px;">
+    <i class="fas fa-bug"></i>
+</div>
+
+          </div>
+
+       
+        </div>
+       
+      </div>
+
+
+    
+
+
+</section>
+
+
+
+   <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
